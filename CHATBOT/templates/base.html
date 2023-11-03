@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name ="viewport" content="width=device-width", initial-scale=1.0>
+    <link rel="stylesheet" href="{{ url_for('static', filename='custom_style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>ACEDS Bot</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="col-sm">
+                <a href="" class="navbar-brand flex-grow-1" style="text-align: center; color: #fff; margin-left: 25px;">
+                    <i  style='font-size:36px'></i>ACEDS: Informations at your finger tips, and in your prefered language by ACED Mind Reader.
+                </a>
+                <a >
+                </a>
+            </div>
+            <div class="col-sm">
+                <span style="text-align: center; color: #fff; margin-left: 25px; width: 98px; float: right; margin-right: 25px; font-size: 20px;"></span>
+            </div>
+        </nav>
+    </header>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat With ACEDS Bot</h4>
+                    <select name="lang" id="lang">
+                        <option value="en">Change Language</option>
+                        <option value="ab">Abkhaz</option>
+                        <option value="aa">Afar</option>
+                        <option value="af">Afrikaans</option>
+                        <option value="ak">Akan</option>
+                        <option value="sq">Albanian</option>
+                        <option value="am">Amharic</option>
+                        <option value="ar">Arabic</option>
+                        <option value="an">Aragonese</option>
+                        <option value="hy">Armenian</option>
+                        <option value="as">Assamese</option>
+                        <option value="av">Avaric</option>
+                        <option value="ay">Aymara</option>
+                        <option value="az">Azerbaijani</option>
+                        <option value="bm">Bambara</option>
+                        <option value="eu">Basque</option>
+                        <option value="be">Belarusian</option>
+                        <option value="bn">Bengali; Bangla</option>
+                        <option value="bh">Bihari</option>
+                        <option value="bi">Bislama</option>
+                        <option value="bs">Bosnian</option>
+                        <option value="br">Breton</option>
+                        <option value="bg">Bulgarian</option>
+                        <option value="my">Burmese</option>
+                        <option value="ca">Catalan; Valencian</option>
+                        <option value="ch">Chamorro</option>
+                        <option value="ce">Chechen</option>
+                        <option value="ny">Chichewa; Chewa; Nyanja</option>
+                        <option value="zh">Chinese</option>
+                        <option value="cv">Chuvash</option>
+                        <option value="kw">Cornish</option>
+                        <option value="co">Corsican</option>
+                        <option value="cr">Cree</option>
+                        <option value="hr">Croatian</option>
+                        <option value="cs">Czech</option>
+                        <option value="da">Danish</option>
+                        <option value="dv">Divehi; Dhivehi; Maldivian;</option>
+                        <option value="nl">Dutch</option>
+                        <option value="dz">Dzongkha</option>
+                        <option value="eng">English</option>
+                        <option value="eo">Esperanto</option>
+                        <option value="et">Estonian</option>
+                        <option value="ee">Ewe</option>
+                        <option value="fo">Faroese</option>
+                        <option value="fj">Fijian</option>
+                        <option value="fi">Finnish</option>
+                        <option value="fr">French</option>
+                        <option value="ff">Fula; Fulah; Pulaar; Pular</option>
+                        <option value="gl">Galician</option>
+                        <option value="ka">Georgian</option>
+                        <option value="de">German</option>
+                        <option value="el">Greek, Modern</option>
+                        <option value="gn">GuaranÃ</option>
+                        <option value="ht">Haitian; Haitian Creole</option>
+                        <option value="ha">Hausa</option>
+                        <option value="he">Hebrew (modern)</option>
+                        <option value="hz">Herero</option>
+                        <option value="hi">Hindi</option>
+                        <option value="ho">Hiri Motu</option>
+                        <option value="hu">Hungarian</option>
+                        <option value="ia">Interlingua</option>
+                        <option value="id">Indonesian</option>
+                        <option value="ie">Interlingue</option>
+                        <option value="ga">Irish</option>
+                        <option value="ig">Igbo</option>
+                        <option value="ik">Inupiaq</option>
+                        <option value="io">Ido</option>
+                        <option value="is">Icelandic</option>
+                        <option value="it">Italian</option>
+                        <option value="iu">Inuktitut</option>
+                        <option value="ja">Japanese</option>
+                        <option value="jv">Javanese</option>
+                        <option value="kl">Kalaallisut, Greenlandic</option>
+                        <option value="kn">Kannada</option>
+                        <option value="kr">Kanuri</option>
+                        <option value="ks">Kashmiri</option>
+                        <option value="rw">Kinyarwanda</option>
+                        <option value="rn">Kirundi</option>
+                        <option value="kv">Komi</option>
+                        <option value="kg">Kongo</option>
+                        <option value="ko">Korean</option>
+                        <option value="kj">Kwanyama, Kuanyama</option>
+                        <option value="la">Inupiaq</option>
+                        <option value="la">Latin</option>
+                        <option value="lb">Luxembourgish, Letzeburgesch</option>
+                        <option value="	lug">Luganda</option>
+                        <option value="li">Limburgish, Limburgan, Limburger</option>
+                        <option value="ln">Lingala</option>
+                        <option value="lo">Lao</option>
+                        <option value="lt">Lithuanian</option>
+                        <option value="lu">Luba-Katanga</option>
+                        <option value="lv">Latvian</option>
+                        <option value="gv">Manx</option>
+                        <option value="mk">Macedonian</option>
+                        <option value="mg">Malagasy</option>
+                        <option value="ms">Malay</option>
+                        <option value="mt">Maltese</option>
+                        <option value="mi">MÄori</option>
+                        <option value="mh">Marshallese</option>
+                        <option value="mn">Mongolian</option>
+                        <option value="na">Nauru</option>
+                        <option value="nv">Navajo, Navaho</option>
+                        <option value="nb">Norwegian BokmÃ¥l</option>
+                        <option value="nd">North Ndebele</option>
+                        <option value="ne">Nepali</option>
+                        <option value="ng">Ndonga</option>
+                        <option value="nn">Norwegian Nynorsk</option>
+                        <option value="no">Norwegian</option>
+                        <option value="ii">Nuosu</option>
+                        <option value="nr">South Ndebele</option>
+                        <option value="oc">Occitan</option>
+                        <option value="oj">Ojibwe, Ojibwa</option>
+                        <option value="pl">Polish</option>
+                        <option value="ps">Pashto, Pushto</option>
+                        <option value="pt">Portuguese</option>
+                        <option value="qu">Quechua</option>
+                        <option value="rm">Romansh</option>
+                        <option value="ro">Romanian</option>
+                        <option value="ru">Russian</option>
+                        <option value="sl">Slovene</option>
+                        <option value="so">Somali</option>
+                        <option value= "su">Sundanese</option>
+                        <option value="st">Southern Sotho</option>
+                        <option value="es">Spanish</option>
+                        <option value="sw">Swahili</option>
+                        <option value="ss">Swati</option>
+                        <option value="sv">Swedish</option>
+                        <option value="ti">Tigrinya</option>
+                        <option value="bo">Tibetan</option>
+                        <option value="tr">Turkish</option>
+                        <option value="uk">Ukrainian</option>
+                        <option value="ur">Urdu</option>
+                        <option value="uz">Uzbek</option>
+                        <option value="ve">Venda</option>
+                        <option value="vi">Vietnamese</option>
+                        <option value="fy">Western Frisian</option>
+                        <option value="yo">Yoruba</option>
+                        <option value="za">Zhuang, Chuang</option>
+                        <option value="zu">Zulu</option>
+                        <option value="vi">Vietnamese</option>
+                        <option value="vi">Vietnamese</option>                        
+                    </select>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Type your message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

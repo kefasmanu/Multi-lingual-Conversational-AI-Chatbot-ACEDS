@@ -1,0 +1,2508 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "hey",
+      "greetings",
+      "whatsup",
+      "??? ??? ??",
+      "Hey there",
+      "Good morning",
+      "Good afternoon",
+      "Good evening",
+      "How are you",
+      "Get started"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?",
+      "Hello! How can I assist you?",
+      "Hi! How can I help you today?",
+      "Hey there! How can I assist you?",
+      "Hey, welcome, how may I help you?",
+      "Hello, thanks for visiting, what help do you need?",
+      "Hi there, what can I do for you?",
+      "Hi there, how can I help?"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "happy",
+   "patterns": [
+         "I am feeling great today!",
+         "I am so happy!",
+         "happy",
+         "i am very happy",
+         "I am in a fantastic mood!",
+         "Everything is going well!",
+         "I am having a wonderful day!",
+         "I couldn't be happier!",
+         "I am thrilled!",
+         "Life is amazing right now!",
+         "I am full of joy!",
+         "i am feeling good!"
+   ],
+   "responses": [
+         "That's wonderful to hear! Enjoy your day!",
+         "I'm glad you're feeling happy. Spread the positivity!",
+         "It's great to see you in such a good mood. Keep smiling!",
+         "May your happiness continue throughout the day!",
+         "I hope your happiness lasts forever!"
+   ],
+   "context_set": ""
+   },
+   {
+   "tag": "sad",
+   "patterns": [
+         "I'm feeling really down.",
+         "I'm sad and upset.",
+         "Wrong answer",
+         "This is poor",
+         "Very poor",
+         "Oh no",
+         "poor",
+         "Wrong",
+         "Bad",
+         "feeling sad",
+         "Very bad",
+         "That is poor",
+         "Very poor",
+         "this is rubbish",
+         "rubbish bot",
+         "rubbish",
+         "stupidity",
+         "Stupid",
+         "sad",
+         "bullshit",
+         "This is stupid",
+         "Stupid information",
+         "Poor performance",
+         "your are not doing well",
+         "i am not doing good",
+         "Today is not a good day",
+         "I'm feeling blue.",
+         "I'm going through a rough time.",
+         "I'm feeling low.",
+         "I can't shake off this sadness.",
+         "Everything feels overwhelming.",
+         "I'm feeling a bit lost."
+   ],
+   "responses": [
+         "I'm sorry to hear that you're feeling sad. Is there anything I can do to help?",
+         "Remember that you're not alone. Reach out to someone you trust for support.",
+         "Take some time for yourself and engage in activities that bring you joy.",
+         "It's okay to feel sad sometimes. Take it one day at a time.",
+         "Remember that brighter days will come. Hang in there!"
+   ],
+   "context_set": ""
+   },
+   {
+   "tag": "stressed",
+   "patterns": [
+         "I'm feeling stressed out.",
+         "I'm overwhelmed with work.",
+         "I can't handle the pressure.",
+         "I'm so stressed right now.",
+         "I need to relax.",
+         "I wish to relax",
+         "I'm at my wit's end.",
+         "I am feeling depressed",
+         "I am very tired",
+         "I am emotionally down",
+         "I'm feeling burnt out.",
+         "I'm under a lot of stress.",
+         "Everything is getting on my nerves."
+   ],
+   "responses": [
+         "Take a deep breath and try to find a moment of calmness.",
+         "Remember to prioritize self-care. Take breaks and engage in activities that help you unwind.",
+         "Consider talking to someone about what's causing your stress. They may be able to offer guidance.",
+         "Try breaking your tasks into smaller, manageable chunks. Don't hesitate to ask for help if needed.",
+         "Remember that you're doing your best. Take things one step at a time."
+   ],
+   "context_set": ""
+   },
+   {
+      "tag": "excited",
+      "patterns": [
+         "I'm so excited!",
+         "I can't wait!",
+         "I'm thrilled!",
+         "This is going to be amazing!",
+         "I'm really looking forward to it!",
+         "I'm bursting with excitement!",
+         "I'm on cloud nine!",
+         "I'm over the moon!",
+         "I'm ecstatic!"
+      ],
+      "responses": [
+         "That's fantastic! Enjoy every moment of it!",
+         "I'm excited for you! Have a wonderful time!",
+         "Your enthusiasm is contagious! Make the most of this exciting experience!",
+         "It sounds like you're in for a great time! Embrace the excitement!",
+         "Wishing you an unforgettable and thrilling experience!"
+      ],
+      "context_set": ""
+      },
+      {
+      "tag": "anxious",
+      "patterns": [
+         "I'm feeling really anxious.",
+         "I'm so nervous.",
+         "I can't stop worrying.",
+         "I'm feeling uneasy.",
+         "I'm filled with apprehension.",
+         "I have butterflies in my stomach.",
+         "I'm on edge.",
+         "I'm feeling restless.",
+         "I can't calm my racing thoughts."
+      ],
+      "responses": [
+         "Take a deep breath and try to focus on the present moment.",
+         "Remember that it's normal to feel anxious sometimes. Practice self-care and be gentle with yourself.",
+         "Consider talking to someone you trust about your concerns. They may provide support and reassurance.",
+         "Try engaging in relaxation techniques such as deep breathing or meditation to help alleviate anxiety.",
+         "Remember that you're stronger than your anxiety. You can get through this!"
+      ],
+      "context_set": ""
+      },
+      {
+      "tag": "content",
+      "patterns": [
+         "I'm feeling content.",
+         "I'm at peace.",
+         "I'm satisfied with life.",
+         "I feel a sense of serenity.",
+         "I'm grateful for what I have.",
+         "I'm in a state of tranquility.",
+         "I'm feeling harmonious.",
+         "i am feeling harmonious",
+         "I am enjoying the present moment.",
+         "I have a deep sense of contentment.",
+         "fealing at peace today"
+      ],
+      "responses": [
+         "That's wonderful to hear! Embrace the feeling of contentment.",
+         "It's great to be in a state of contentment. May it continue to bring you joy.",
+         "Take a moment to appreciate and savor this feeling of contentment.",
+         "Being content is a beautiful place to be. Enjoy the serenity.",
+         "Wishing you many more moments of contentment and peace."
+      ],
+      "context_set": ""
+      },
+{
+"tag": "jokes",
+"patterns": [
+      "jokes",
+      "tell me a joke",
+      "Can you tell me a joke?",
+      "i need a joke",
+      "tell me some jokes",
+      "tell me a good joke",
+      "Joke for me",
+      "I want to laugh",
+      "What joke do you have",
+      "tell me something funny",
+      "crack my ribs",
+      "crack a joke",
+      "tell me something funny",
+      "i wish to laugh",
+      "tell me more jokes",
+      "joke for me",
+      "Tell me a data science joke.",
+      "Can you share a machine learning joke?",
+      "Give me a good laugh",
+      "I could use some humor",
+      "Entertain me with a joke",
+      "entertain me",
+      "Tell me a hilarious joke",
+      "Make me laugh out loud",
+      "I need jokes please",
+      "I'm in the mood for a joke",
+      "I need a good chuckle",
+      "tell me something funny",
+      "Commedy",
+      "I need something very funny"
+      
+],
+"responses": [
+      "Why do data scientists prefer dark mode; Because it reduces their data's overfitting to the light!",
+      "Why did the data scientist go broke; Because he lost all his cache!",
+      "Why did the data scientist bring a ladder to the bar; Because the bar chart was too high!",
+      "Why don't scientists trust atoms; Because they make up everything!",
+      "Why do machine learning models always feel lonely; Because they have no bias-variance!",
+      "What do you call a machine learning model that tells jokes; A comic neural network!",
+      "Why did the neural network go on a diet; It wanted to reduce its overfitting!",
+      "Why did the scarecrow win an award; Because he was outstanding in his field!",
+      "What's the best time to go to the dentist; Tooth-hurty!",
+      "Why don't scientists trust sea creatures; Because they are so shellfish!",
+      "Why did the computer take up painting; It found the algorithms to be too abstract!",
+      "Why was the math book sad? Because it had too many problems!",
+      "Why don't scientists trust atoms; Because they make up everything!",
+      "Why did the tomato turn red; Because it saw the salad dressing!",
+      "What's the most used language in programming? Profanity!",
+      "Why did the bicycle fall over; Because it was two-tired!",
+      "What did the zero say to the eight; Nice belt!",
+      "Why dont scientists trust atoms; Because they make up everything!",
+      "Why dont skeletons fight each other; They dont have the guts!",
+      "What did one wall say to the other wall; I'll meet you at the corner!",
+      "Why don't eggs tell jokes; Because they might crack up!",
+      "What do you call fake spaghetti? An impasta!",
+      "Why don't seagulls fly over the bay; Because then they would be bay-gulls!",
+      "Why don't vampires go on vacation; Because they're afraid they'll get a stake!",
+      "How do you organize a space party; You just 'planet'!",
+      "What did one hat say to the other hat; You stay here, I ll go on ahead!",
+      "What do you call a bear with no teeth; A gummy bear!",
+      "Why did the scarecrow win an award; Because he was outstanding in his field!",
+      "How do you catch a squirrel; Climb a tree and act like a nut!",
+      "Why was the math book sad; Because it had too many problems!",
+      "What do you call a snowman with a six-pack; An abdominal snowman!",
+      "Why did the bicycle fall over; Because it was two-tired!",
+      "What do you call a fish wearing a crown; King Neptune!",
+      "How does a penguin build its house; Igloos it together!",
+      "Why did the tomato turn red? Because it saw the salad dressing!",
+      "What do you call a sleeping bull; A bull-dozer!",
+      "Why did the golfer bring two pairs of pants; In case he got a hole in one!"
+
+],
+"context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg",
+      "Bye", 
+      "later",
+      "later"
+     
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon",
+      "Goodbye! Have a great day!",
+      "Bye! Take care.",
+      "See you later! Have a wonderful day!",
+      "See you later, thanks for visiting",
+      "Have a nice day",
+      "Bye! Come back again soon."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "creators",
+      "who made you",
+      "who designed you",
+      "creator",
+      "maker",
+      "who is your maker",
+      "who is your creator"
+   ],
+   "responses": [
+      "MSc. Data Science(Data Mining) Student Cohort 4",
+      "MSc. Data Science(Data Mining) Student Cohort by name KEFAS",
+      "Developed by MSc. Data Science Cohort 4 at the University of Rwanda"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i talking to",
+      "what are you",
+      "you are",
+      "Tell me about yourself",
+      "Who are you?",
+      "Can i get to know you?",
+      "Can i get to know more about you?",
+      "Who the hell are you?"
+   ],
+   "responses": [
+      "You can call me ACE-DS Mind Reader.",
+      "I'm ACE-DS Mind Reader",
+      "I am your ACE-DS Information provider",
+      "I am ACE-DS bot.",
+      "I am your ACE-DS helper",
+      "Hey, welcome, i am ACEDS Mind Reader, a Bot designed to support you have access to information quickly.",
+      "Hello, thanks for visiting, my name is Mind Reader, i am designed to help you get Information, Nice to meet you."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of college",
+      "what is college timing",
+      "what is ACE-DS timing",
+      "working days",
+      "your working hours",
+      "center timing",
+      "what is the center timing",
+      "timing of center",
+      "when are you guys open",
+      "what are your hours",
+      "working hours",
+      "hours of operation",
+      "when is the ACEDS open",
+      "when is the center open",
+      "when is the ACE-DS open",
+      "ACEDS opens by what time",
+      "college timing",
+      "ACE-DS timing",
+      "what about college timing",
+      "what about center timing",
+      "what about ACE-DS timing",
+      "is college open on saturday",
+      "tell something about college timing",
+      "tell something about center timing",
+      "tell something about ACEDS timing",
+      "what is the college  hours",
+      "when should i come to college",
+      "when should i attend college",
+      "what is my college time",
+      "what is my center time",
+      "college timing",
+      "university timing",
+      "center timing",
+      "ACEDS timing",
+      "timing college"
+   ],
+   "responses": [
+      "College is open from 8am-5pm Monday-Friday! ",
+      "Opens 8am to 5pm daily, Students have access to center class rooms 24hrs 7 days of the week"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "About",
+   "patterns": [
+     "About ACEDS",
+     "About ACE-DS",
+     "About African Center of Excellence in Data Science",
+     "About",
+     "What type of information do you have?",
+     "What is the meaning of ACEDS",
+     "Information about ACEDS",
+     "Tell me about ACEDS",
+     "What do you know about ACEDS",
+     "I need support about ACED",
+     "What kind of items do you have",
+     "African Center of Excellence in Data Science",
+     "What kinds of information are there?",
+     "Tell me about ACEDS?",
+     "information about ACEDS services",
+     "information about ACEDS ",
+     "ACEDS services in Rwanda",
+     "What type of information does ACEDS has?",
+     "Can i get to know about ACEDS?"
+
+   ],
+   "responses": [
+     "ACEDS is a World Bank-funded project at the University of Rwanda, offering MSc./PhD, training, and certifications in Data Science, including Big Data Analytics, Machine Learning, and Artificial Intelligence.",
+     "ACEDS is a World Bank-funded project at the University of Rwanda, offering MSc./PhD, training, and certifications in Data Science, including specialties in Actuarial Sciences, Biostatistics, Data Mining, Demography, and Econometrics.",
+     "ACEDS is a World Bank-funded project at the University of Rwanda focusing on MSc./PhD programs, training, and certifications in Data Science, including Big Data Analytics, Machine Learning, and Artificial Intelligence.",
+     "ACEDS is a World Bank-funded project at the University of Rwanda, focusing on research, training, and certifications in Data Science, including Big Data Analytics, Machine Learning, and Artificial Intelligence. It offers PhD and MSc degrees with various specializations."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "contact information",
+      "how to contact ACEDS",
+      "how to contact the center",
+      "ACEDS telephone number",
+      "ACEDS number",
+      "how can i contact ACEDS",
+      "Contact address of ACEDS",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "ACEDS phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "You can contact ACEDS at: \nAddress: KK 737 St, Kigali,Rwanda.\nCall: (+250) 788 456 452\nEmail: aceds@ur.ac.rw "
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "course",
+   "patterns": [
+      "list of courses",
+      "list of programs offered",
+      "course offered",
+      "What programs does the university offer?",
+      "Can you tell me about the available majors?",
+      "Do you have any specialized programs?",
+      "list of courses offered",
+      "programs",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "what are the courses offered in ACE-DS?",
+      "courses?",
+      "courses offered",
+      "courses offered in African Center of Excellence in Data Science University of Rwanda",
+      "courses offered in ACE-DS, UR",
+      "courses you offer",
+      "branches?",
+      "courses available at ACE-DS?",
+      "courses available at African Center of Excellence in Data Science?",
+      "Professional Programmes available at your center?",
+      "what are the courses in center?",
+      "what are the courses available?",
+      "what are the courses available at ACE-DS?",
+      "what are courses in the University?",
+      "branches available in ACEDS?",
+      "can you tell me the courses available?",
+      "can you tell me the programs available?",
+      "Master programs",
+      "PHD in Data Science",
+      "Certification programs",
+      "certification courses",
+      "Short programs",
+      "AI/Ml"
+   ],
+   "responses": [
+      "Our university center provides Master's and PhD programs in Data Science, as well as Certification and Short programs.",
+      "ACE-DS offers diverse programs including Masters, PhD, and professional certifications. Visit our website for more details.",
+      "We offer majors in Data Science, including Masters, PhD, and Professional Certifications, with comprehensive curricula for success in the field.",
+      "In addition to our standard Data Science programs, we offer specialized training in Data Mining, Biostatistics, Econometrics, Actuarial Science, and Demography."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "master",
+   "patterns": [
+      "information about master programs",
+      "information on master programs",
+      "tell me about the masters programs",
+      "Master",
+      "MSc",
+      "Master programs",
+      "what are the master programs",
+      "How many master programs are available",
+      "what is master programs",
+      "Master program in data science",
+      "MSc Data Science"
+      
+   ],
+   "responses": [
+      "MSc. Data Science specialization in:\nActuarial Science.<a target=\"_blank\" href=\"https://aceds.ur.ac.rw/specialization-actuarial-science-0\">Click here</a>\nDemography. details <a target=\"_blank\" href=\"https://aceds.ur.ac.rw/specialization-demography\"> here</a>\nBiostatistics.Click <a target=\"_blank\" href=\"https://aceds.ur.ac.rw/specialization-biostatistics\"> here</a>\nEconometrics.Click <a target=\"_blank\" href=\"https://aceds.ur.ac.rw/specialization-econometrics\">here</a>\nData Mining.Click <a target=\"_blank\" href=\"https://aceds.ur.ac.rw/specialization-data-mining\"> here</a>"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "PHD",
+   "patterns": [
+      "information about PHD programs",
+      "information on PHD programs",
+      "tell me about the PHD programs",
+      "what are the PhD programs offered at ACEDS",
+      "PHD",
+      "PHD programs",
+      "what are the PHD programs",
+      "How many PhD programs are available",
+      "what is PhD programs",
+      "PHD program in data science",
+      "PhD Data Science",
+      "What PhD programs are available",
+      "PhD programs in Data Science"
+      
+   ],
+   "responses": [
+      "PHD in Data Science specializations. For detail visit <a target=\"_blank\" href=\"https://aceds.ur.ac.rw/index.php/phd-data-science\"> here</a>"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Certifications",
+   "patterns": [
+      "information about certification programs",
+      "provide me with information about certification programs",
+      "information about professional certification programs",
+      "information on certification programs",
+      "tell me about the certification programs",
+      "Certification programs",
+      "certification",
+      "what are the certification programs",
+      "How many certification programs are available",
+      "what is certification programs",
+      "Certification programs in data science",
+      "certification in Data Science"
+      
+   ],
+   "responses": [
+      "DASCA Certifications include:\nABDA. details<a target=\"_blank\" href=\"https://aceds.ur.ac.rw/associate-big-data-analyst\"> here</a>\nABD. details <a target=\"_blank\" href=\"https://aceds.ur.ac.rw/associate-big-data-engineer\"> here</a>\n\nSBDE. details <a target=\"_blank\" href=\"https://aceds.ur.ac.rw/sinior-big-data-engineer\"> here</a>\n Others are:\n SDS\n SBDA"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the college located",
+      "where is the institution located",
+      "where is the center located",
+      "ACEDS is located at",
+      "direction to aceds",
+      "center is located at",
+      "where is ACE-DS",
+      "where is African Center of Excellence in Data Science",
+      "where is the located",
+      "where is the center located",
+      "which college is the ACEDS located",
+      "address of college",
+      "address of institution",
+      "how to reach the institution",
+      "how to reach the University",
+      "college location",
+      "college address",
+      "wheres the college",
+      "how can I reach the institution",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "Location:\nAddress: KK 737 St,Kigali,Rwanda\nPhone: +250 788 521 896\nFor direction Click<a target=\"_blank\" href=\"https://www.google.com/maps/dir/8.9853078,7.6770244/african+center+of+excellence+in+data+science/@5.3649366,1.6068935,4z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x19dca7e1534b93df:0x922ce0003c1af5e4!2m2!1d30.0734787!2d-1.9612535?entry=ttu\"> here</a>"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "information about fees",
+      "information on fees",
+      "tell me the fee",
+      "What are the costs of studying at ACEDS?",
+      "ACEDS study expenses?",
+      "Cost of studying at ACEDS?",
+      "ACEDS education fees?",
+      "What are the expenses for studying at ACEDS?",
+      "Briefly explain the costs of studying at ACEDS.",
+      "ACEDS fee",
+      "What are the costs of studying at ACEDS?",
+      "What are the fees of studying at ACEDS?",
+      "fee per semester",
+      "What are the costs of studying a Masters program at ACEDS?",
+      "What are the costs of studying a PhD program at ACEDS?",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "Charges",
+      "tuition",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of masters",
+      "how much is the fees or charges",
+      "Master's fees",
+      "Masters tuition",
+      "MSc school charges",
+      "How much is registration fees",
+      "How much is registration charges"
+
+   ],
+   "responses": [
+      "For details click <a target=\"_blank\" href=\"https://ur.ac.rw/IMG/pdf/fees_structure_2018_2019_combined-pivote.pdf\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hostel",
+   "patterns": [
+      "hostel facility",
+      "hostel servive",
+      "hostel location",
+      "hostel address",
+      "hostel facilities",
+      "hostel fees",
+      "accomodation",
+      "student accomodation",
+      "Does college provide hostel",
+      "Is there any hostel",
+      "Where is hostel",
+      "do you have hostel",
+      "do you guys have hostel",
+      "hostel",
+      "student hostel",
+      "student apartments",
+      "hostel capacity",
+      "what is the hostel fee",
+      "how to get in hostel",
+      "what is the hostel address",
+      "how far is hostel from college",
+      "hostel college distance",
+      "where is the hostel",
+      "how big is the hostel",
+      "distance between college and hostel",
+      "distance between hostel and college",
+      "Do you offer on-campus housing?",
+      "On-campus apartment available?",
+      "On-campus student residence available?",
+      "student residence"
+   ],
+   "responses": [
+      "The university offers limited on-campus apartments for postgraduates students. Students can also find private accommodation off-campus. For more information, please contact the center admin.",
+      "The University offers limited on-campus apartments for postgraduates students, as well as off-campus private accommodations for rent. For further information, please contact the center admin."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "event",
+   "patterns": [
+      "events organised",
+      "list of events",
+      "list of events organised in aceds",
+      "list of events conducted in ACEDS",
+      "What events are conducted in ACEDS",
+      "Are there any event held at ACEDS",
+      "Events?",
+      "types of events",
+      "functions",
+      "what are the events",
+      "tell me about events",
+      "what about events"
+   ],
+   "responses": [
+      "The center organizes various Data Science events to enhance the technical skills of its staff and students.",
+      "The center organizes numerous Data Science events to enhance the technical skills of its staff and students."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "document",
+   "patterns": [
+      "document to bring",
+      "documents needed for admision",
+      "documents needed at the time of admission",
+      "documents needed during admission",
+      "documents required for admision",
+      "documents required at the time of admission",
+      "documents required during admission",
+      "What document are required for admission",
+      "Which document to bring for admission",
+      "documents",
+      "admission documents",
+      "what documents do i need",
+      "what documents do I need for admission",
+      "documents needed"
+   ],
+   "responses": [
+      "International students must submit a medical certificate of fitness, police clearance certificate, and academic credentials for on-campus documentation. For more details, for more details, visit <a target=\"_blank\" href=\"https://aceds.ur.ac.rw/admission-requirements\"> here</a>",
+      "International students must submit a medical certificate of fitness, a police clearance certificate, and their academic credentials for on-campus documentation. For further details click <a target=\"_blank\" href=\"https://aceds.ur.ac.rw/admission-requirements\"> here</a>",
+      "International students must submit a medical certificate of fitness, police clearance certificate, and academic credentials for on-campus documentation. For further details on the required documents click<a target=\"_blank\" href=\"https://aceds.ur.ac.rw/admission-requirements\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "floors",
+   "patterns": [
+      "size of campus",
+      "building size",
+      "How many floors does college have",
+      "floors in college",
+      "floors in college",
+      "how tall is UNI's College of Engineering college building",
+      "floors",
+      "structures at ACEDS",
+      "class rooms at ACEDS",
+      "Lecture halls at ACEDS"
+   ],
+   "responses": [
+      "The University of Rwanda has multi-level floors with diverse capacities and advanced technological facilities.",
+      "The University of Rwanda offers multiple floors with various capacities and advanced technological facilities",
+      "University of Rwanda has multiple floors with varying capacities and advanced technological facilities."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "syllabus",
+   "patterns": [
+      "Syllabus for MSc Data Science",
+      "Modules for Data Science",
+      "Modules for MSc Data Science",
+      "Syllabus for Data Science",
+      "what is the Data science syllabus",
+      "what is the Data science modules",
+      "Data Science Syllabus",
+      "Data Science Modules",
+      "what is Data Science syllabus",
+      "what is Data Science modules",
+      "syllabus",
+      "programs syllabus",
+      "syllabus for masters students",
+      "modules",
+      "What is next lecture"
+   ],
+   "responses": [
+      " Contact the Admin for the timetable or visit  for details.<a target=\"_blank\" href=\"https://aceds.ur.ac.rw/specialization-actuarial-science-0\">Actuarial Science</a>\n<a target=\"_blank\" href=\"https://aceds.ur.ac.rw/specialization-demography\"> Demography</a>\n<a target=\"_blank\" href=\"https://aceds.ur.ac.rw/specialization-biostatistics\">Biostatistics</a>\n<a target=\"_blank\" href=\"https://aceds.ur.ac.rw/specialization-econometrics\">Econometrics</a>\n<a target=\"_blank\" href=\"https://aceds.ur.ac.rw/specialization-data-mining\"> Data Mining</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "library",
+   "patterns": [
+      "is there any library",
+      "library facility",
+      "library facilities",
+      "do you have library",
+      "does ACE-DS have library facility",
+      "does ACE-DS has library facility",
+      "ACED-DS library",
+      "where can i get books",
+      "book facility",
+      "Where is library",
+      "Library",
+      "Any Library",
+      "Library information",
+      "Library books information",
+      "Tell me about library",
+      "how many libraries",
+      "about ACEDS library"
+   ],
+   "responses": [
+      "ACE-DS library offers a wide range of resources in various areas of data science, available in both physical and digital formats.For details click <a target=\"blank\" href=\"https://aceds.ur.ac.rw/library\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "infrastructure",
+   "patterns": [
+      "how is ACEDS infrastructure",
+      "how is ACEDS facilities",
+      "infrastructure",
+      "ACEDS infrastructure",
+      "ACEDS facilities",
+      "facilities"
+   ],
+   "responses": [
+      "The center has excellent infrastructure with clean campus and well-equipped IT labs offering high-speed internet connection.For more visit <a target=\"blank\" href=\"https://aceds.ur.ac.rw/facilities\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "canteen",
+   "patterns": [
+      "food facilities",
+      "canteen facilities",
+      "canteen facility",
+      "is there any canteen on campus",
+      "Is there a cafetaria in college",
+      "Does college have canteen",
+      "Where is canteen",
+      "where is cafetaria",
+      "food shops",
+      "Where can i eat on campus",
+      "places to eat on campus",
+      "are there good eatry",
+      "student eatry",
+      "can i get eatry on campus?",
+      "where can i get food to eat?",
+      "The best place to get good food",
+      "a place where someone can eat",
+      "canteen",
+      "Food",
+      "restuarants",
+      "are there restuarants on campus?",
+      "Cafetaria"
+   ],
+   "responses": [
+      "The university offers diverse food options at its canteens.",
+      "The college provides a wide range of food options at its canteens.",
+      "The college offers diverse food options at its restaurants."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "menu",
+   "patterns": [
+      "food menu",
+      "food in canteen",
+      "Whats there on menu",
+      "what is available in college canteen",
+      "what foods can we get in college canteen",
+      "food variety",
+      "What is there to eat?",
+      "menu",
+      "types of food available",
+      "available diets",
+      "varities of food at the cateen",
+      "what kind of foods are there in the cateen"
+   ],
+   "responses": [
+      "The menu includes a variety of items such as rice, matoke, tea, milk, chapati, eggs, beer, soft drinks, and more.",
+      "The menu includes a variety of dishes such as rice, matoke, tea, milk, chapati, eggs, beer, soft drinks, and more.",
+      "The menu includes a variety of options such as rice, matoke, tea, milk, chapati, eggs, beer, soft drinks, and more."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "placement",
+   "patterns": [
+      "What is college placement",
+      "Jobs available",
+      "paid internships availability on campus",
+      "Which companies visit in college",
+      "What is average package",
+      "companies visit for recruitment or jobs offering",
+      "package",
+      "About placement",
+      "placement",
+      "recruitment",
+      "companies",
+      "jobs opportunities",
+      "types of jobs students could apply for",
+      "vacancies"
+   ],
+   "responses": [
+      "For placement information, visit our campus or website for more details.",
+      "For vacancies information, visit our campus or website for more details.",
+      "For detailed information on vacancies, please visit our campus or website.",
+      "To access information about vacancies, please visit our campus or website for further details."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "staff",
+   "patterns": [
+      "Who is the HOD",
+      "who is the college Admin",
+      "Who is the Director",
+      "who is the admin staff",
+      "staff of the college",
+      "management staff at aceds",
+      "advisory board members at ACEDS",
+      "staff",
+      "lecturers",
+      "director",
+      "Where is the HOD",
+      "name of Director",
+      "Principal",
+      "who is the principal of the college",
+      "who is the director of the college",
+      "Vice Chancellor",
+      "what is the name of the vice Chancellor",
+      "What is the name of the director",
+      "what is the name of the adminstrator",
+      "Who is the Principal",
+      "Advisory Board",
+      "who are the advisory board",
+      "who are the staff of ACEDS",
+      "what are the names of lecturers at ACEDS",
+      "Lecturers",
+      "who are the staff at ACE-DS",
+      "Who are the advisory board",
+      "Who is the Director",
+      "Director",
+      "the name of the director",
+      "adminstrator",
+      "Who is the admin staff?",
+      "admin",
+      "Management",
+      "who are the management staff",
+      "management staff",
+      "Head of training",
+      "who is incharge of adminssion",
+      "Who is the head of research",
+      "Head of Incubation hub"
+   ],
+   "responses": [
+      "For staff click <a target=\"_blank\" href=\"https://aceds.ur.ac.rw/ace-ds-staff\">here</a>\n Advisory Board click <a target=\"_blank\" href=\"https://aceds.ur.ac.rw/aced-ds-advisory-board\"> here </a>\n"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "AI",
+   "patterns": [
+      "Is there AI in ACE-DS",
+      "Can i do AI at ACE_DS?",
+      "Artificial Intelligence",
+      "AI",
+      "What AI course is offered at ACEDS",
+      "Are there artificial Intelligence course",
+      "Is AI program available",
+      "Does the center offers Artificial Intelligence programs",
+      "What AI course is offered at the university",
+      "Artificial Intelligence"
+   ],
+   "responses": [
+      "All ACE-DS courses integrate artificial intelligence into their curriculum."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "principal",
+   "patterns": [
+      "what is the name of the college principal",
+      "what is the principal name",
+      "principal name",
+      "who is the vice chancellor",
+      "who is the head of the institution",
+      "who is spear heading affairs at the university",
+      "who manages all activities at the college",
+      "Who is college principal",
+      "Where is principal's office",
+      "principal",
+      "name of principal",
+      "who is the Vice Chancellor"
+   ],
+   "responses": [
+      "Dr. Joseph Nkurunziza is the acting principal of the College of Business and Economics, which hosts the African Center of Excellence in Data Science (ACEDS).",
+      ""
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "semester",
+   "patterns": [
+      "exam dates",
+      "exam schedule",
+      "When is semester exam",
+      "Semester exam timetable",
+      "sem",
+      "semester",
+      "exam",
+      "when is exam",
+      "exam timetable",
+      "exam dates",
+      "when is semester",
+      "when does sessions commences?",
+      "When is the academic calender starting",
+      "how are the semesters arranged"
+   ],
+   "responses": [
+      "For details regarding your timetable, semester, and academic events, please consult the PG administrator.",
+      "Contact the Admin for details on your timetable, semester, and academic events.",
+      "Please contact the Admin for details regarding your timetable, semester, and other academic events."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "admission",
+   "patterns": [
+      "how do I get enrolled at ACEDS",
+      "Enrolment process for adimission",
+      "What are the academic requirements needed to get enrolled for an Artificial Intelligence programe?",
+      "What are the academic requirements needed to get enrolled for an AI programe?",
+      "What are the academic requirements needed to get enrolled for Masters programe?",
+      "How to apply for admission",
+      "How to apply for PhD programs",
+      "what is the process of admission",
+      "what is the admission process",
+      "How to take admission in your college",
+      "What is the process for admission",
+      "How to apply for Masters programs",
+      "admission for masters",
+      "admission process",
+      "How can I apply for Admission to the university?",
+      "How can I apply for admission at ACEDS?",
+      "What are the admission requirements?",
+      "Can you tell me about the admission application process?",
+      "What is the process for enrolling at ACEDS?",
+      "How can I apply for admission to ACEDS?",
+      "What are the steps to get enrolled at ACEDS?",
+      "Could you explain the enrollment procedure for ACEDS?",
+      "What is the enrollment process like at ACEDS?",
+      "How do I go about getting admission at ACEDS?",
+      "Can you provide information on how to join ACEDS as a student?",
+      "What are the requirements for enrollment at ACEDS?",
+      "What is the application process for ACEDS?",
+      "Could you guide me on how to become a student at ACEDS?",
+      "How to apply for admission into masters programs"
+   ],
+   "responses": [
+      "ACE-DS welcomes applications from candidates with relevant degrees in fields related to Data Science. Enrollments are granted if requirements are met.",
+      "ACE-DS welcomes applications from candidates with relevant degrees in fields like Statistics, Mathematics, Computer Science, etc. If requirements are met, enrollment is granted.",
+      "ACEDS welcomes applications from candidates with relevant degrees in fields like Statistics, Mathematics, Computer Science, IT, Economics, and related disciplines",
+      "ACEDS welcomes applications from candidates with relevant undergraduate/master's degrees in disciplines related to Data Science. If requirements are met, enrollment is possible.",
+      "An application can be submitted online through the Unversity's  <a target=\"_blank\" href=\"https://ur.ac.rw/?Postgraduate\">website</a>",
+      "To apply to our university, you can visit our official website and follow the application instructions provided there.",
+      "The admission requirements include be found in our call for application. You can find more detailed information on our <a target=\"_blank\" href=\"https://ur.ac.rw/?Postgraduate\">website</a>.",
+      "The application process consists of call for application, online application, and interview. Please visit our <a target=\"_blank\" href=\"https://ur.ac.rw/?Postgraduate\">website</a> or call for application for detailed instructions."
+      ],
+   "context_set": ""
+},
+ {
+   "tag": "scholarship",
+   "patterns": [
+      "scholarship",
+      "What scholarship does ACEDS offers",
+      "is there scholarship for students",
+      "What financial aid options are available?",
+      "Can I apply for scholarships?",
+      "Do you offer work-study programs?",
+      "financial aids",
+      "ACEDS scholarship application process?",
+      "How to obtain an ACEDS scholarship?",
+      "Getting a scholarship at ACEDS?",
+      "Scholarship opportunities at ACEDS?",
+      "ACEDS scholarship application guidelines?",
+      "Steps to secure an ACEDS scholarship?",
+      "How can I qualify for an ACEDS scholarship?",
+      "What is the process for ACEDS scholarship selection?",
+      "ACEDS scholarship application requirements?",
+      "Seeking a scholarship at ACEDS?",
+      "How can I get a scholarship at ACEDS?",
+      "Is scholarship available",
+      "scholarship in Data Science",
+      "scholarship Data Mining",
+      "scholarship Biostatistics",
+      "scholarship econometrics",
+      "scholarship actuarial science",
+      "scholarship Demography",
+      "scholarship for AI/ML",
+      "PHD scholarship",
+      "How to apply for scholarship programs",
+      "Masters scholarship",
+      "available scholarships",
+      "scholarship for masters",
+      "scholarship for PHD",
+      "scholarship for Data Science",
+      "scholarship for MSc Data Science",
+      "scholarship for studies",
+      "list of scholarship",
+      "ACEDS scholarship",
+      "African Center of Excellence in Data Science scholarship",
+      "government scholarship",
+      "student scholarship",
+      "postgraduate scholarship",
+      "study scholarship",
+      "first year scholarship",
+      "second year scholarship",
+      "third year scholarship",
+      "full scholarship",
+      "full time scholarship",
+      "part time scholarship",
+      "Higher Eduction scholarship",
+      "HEC scholarship",
+      "Does ACEDS offers Scholarships",
+      "Masters Scholarships",
+      "PhD Scholarships",
+      "World Bank Scholarships"
+
+   ],
+   "responses": [
+      "ACEDS offers competitive scholarships, including government scholarships, supported by sponsors. Check application calls or contact the financial office for details.",
+      "ACEDS offers financial aid options such as scholarships, grants, and student loans. For more information, check our application call or contact our financial aid office.",
+      "Scholarships are available for eligible students. Details about the application process and criteria can be found in our application call.",
+      "We offer on-campus work-study programs for students. Contact our career services office for more information.",
+      "ACEDS scholarships are awarded through a competitive selection process. Check our application announcements for available opportunities."
+
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "facilities",
+   "patterns": [
+      "What facilities ACEDS provide",
+      "College facility",
+      "What are college facilities",
+      "facilities",
+      "facilities provided",
+      "What facilities ACEDS provides",
+      "ACEDS Facilities",
+      "What are ACEDS facilities",
+      "What are the facilities at ACEDS",
+      "Does ACEDS have state of the art facilities for learning"
+   ],
+   "responses": [
+      "ACE-DS at UR offers fully equipped facilities, including an AC lab, smart classrooms, an auditorium, a library, and a canteen.",
+      "ACE-DS at the UR features a fully equipped AC Lab, smart classroom, auditorium, library, and canteen.",
+      "ACE-DS at UR has fully equipped facilities including an AC lab, smart classrooms, an auditorium, library, and canteen.",
+      "ACE-DS at the College of Business and Economics, University of Rwanda features a fully equipped AC Lab, smart classrooms, an auditorium, library, and canteen."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "intake",
+   "patterns": [
+      "max number of students",
+      "number of seats per branch",
+      "number of seats in each branch",
+      "maximum number of seats",
+      "maximum students intake",
+      "What is college intake",
+      "how many stundent are taken in each branch",
+      "seat allotment",
+      "seats",
+      "intakes",
+      "intake",
+      "candidates",
+      "students",
+      "numbers per intake",
+      "Numbers of applicants admitted yearly",
+      "whats the total number of admission offered"
+
+   ],
+   "responses": [
+      "ACEDS accepts a limited number of applicants for Masters and PhD programs, selecting the best candidates for admission each year.",
+      "ACEDS offers limited slots for Masters and PhD programs and selects the best candidates for admission each year",
+      "ACEDS has limited slots for Masters and PhD admissions, and each year the top candidates are carefully chosen for enrollment."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "uniform",
+   "patterns": [
+      "college dress code",
+      "college dresscode",
+      "what is the uniform",
+      "can we wear casuals",
+      "Does college have an uniform",
+      "Is there any uniform",
+      "uniform",
+      "what about uniform",
+      "do we have to wear uniform"
+   ],
+   "responses": [
+      "The College recommends students to dress modestly.",
+      "The College encourages students to dress modestly.",
+      "The college recommends modest attire for students."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "committee",
+   "patterns": [
+      "what are the different committe in ACE-DS",
+      "different committee",
+      "Are there any committee in college",
+      "Give me committee details",
+      "committee",
+      "how many committee are there in college",
+      "Who are the admission committees",
+      "Admission committees"
+   ],
+   "responses": [
+      "Contact the center via email for information about college committees: aceds@ur.ac.rw or call (+250) 788 456 452"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me",
+      "Tell me about sex"
+   ],
+   "responses": [
+      "Please ask appropriate query",
+      "Please provide a specific query or question.",
+      "Please provide a specific query."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "Please use suitable language.",
+      "Maintaining decency would be appreciated",
+      "Please maintain decorum.",
+      "Kindly maintain decorum."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when will semester starts",
+      "when will semester end",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",
+      "When is holidays",
+      "how long will be the vacation",
+      "Where can we visit for vacation"
+   ],
+   "responses": [
+      "You will receive the academic calendar from the admin staff or center coordinators once you join your classes or programs.",
+      "The academic calendar will be provided by the admin staff through the center coordinators once you join your classes/programs."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sports",
+   "patterns": [
+      "sports and games",
+      "give sports details",
+      "sports infrastructure",
+      "sports facilities",
+      "information about sports",
+      "Sports activities",
+      "please provide sports and games information"
+   ],
+   "responses": [
+      "ACEDS encourages all-round development of students and hence provides sports facilities in the campus.",
+      "ACEDS promotes holistic student development by offering sports facilities on campus.",
+      "ACEDS promotes holistic student development and offers sports facilities on campus."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "goodbye",
+   "patterns": [
+     "Goodbye",
+     "Bye",
+     "See you later",
+     "later",
+     "see you", 
+     "Thank and bye"
+
+   ],
+   "responses": [
+     "Goodbye! Have a great day!",
+     "Bye! Take care.",
+     "See you later! Have a wonderful day!"
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "Thank you",
+      "Thanks a lot",
+      "Appreciate it",
+      "okie",
+      "nice work",
+      "well done",
+      "welldone",
+      "good job",
+      "thanks for the help",
+      "thank you so much",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "no",
+      "Wow",
+      "Alright",
+      "I am ok",
+      "Thanks alot",
+      "Thank you very much for the help",
+      "Thank you so much for your help",
+      "Perfect",
+      "Intelligent",
+      "you are doing beautifully well",
+      "I will be right back",
+      "This is nice of you",
+      "great",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?",
+      "You are welcome!",
+      "Glad I could assist you!",
+      "No problem, happy to help!"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "positive",
+   "patterns": [
+     "I love this product!",
+     "This is amazing!",
+     "I am so impressed with the quality.",
+     "I can't get enough of it!",
+     "This exceeds my expectations.",
+     "I love this!",
+     "This is great!",
+     "This is nice",
+     "Thats beautiful",
+     "Beautiful",
+     "Beautiful answer",
+     "amazing work",
+     "Wow, what a beautiful answer",
+     "I love you so much",
+     "i am in love with your response",
+     "Thank you for the information",
+     "The information is good",
+     "Great Job",
+     "good answer",
+     "good response",
+     "I am very happy today",
+     "Excellent",
+     "good",
+     "amazing",
+     "I am happy with this.",
+     "This product is fantastic!",
+      "I highly recommend this!",
+      "I am thrilled with the information.",
+      "This is top-notch!",
+      "Amazing work"
+   ],
+   "responses": [
+     "I'm glad you love it!",
+     "It's great to hear that you're impressed!",
+     "Thank you for your positive feedback!",
+     "We're happy to know that you're enjoying it!",
+     "That's wonderful! We aim to exceed expectations.",
+     "Your recommendation means a lot to us!",
+      "We appreciate your kind words!",
+      "We're thrilled that you're happy with our services!",
+      "We strive to provide top-notch products, and we're glad you think so too!",
+      "If you have any questions or need assistance, feel free to ask."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "negative",
+   "patterns": [
+     "I hate this product!",
+     "This is terrible quality.",
+     "I amm extremely disappointed.",
+     "It is not worth the price.",
+     "I regret purchasing this.",
+     "I hate this!",
+     "disappointed",
+     "This is terrible.",
+     "I am so disappointed.",
+     "This product is a letdown.",
+      "I would not recommend this to anyone.",
+      "I am unsatisfied with my purchase.",
+      "This falls short of my expectations."
+   ],
+   "responses": [
+     "We're sorry to hear that you're unhappy with the product.",
+     "We apologize for any inconvenience caused.",
+     "Thank you for bringing this to our attention. We'll look into it.",
+     "We understand your frustration and apologize for the disappointment.",
+     "Please contact our customer support for assistance with your concern.",
+     "Your feedback is important to us, and we'll strive to improve.",
+      "We appreciate your honest opinion and will take it into account.",
+      "We're here to help resolve any issues you may have encountered.",
+      "We're committed to customer satisfaction, and we'll work to address your concerns.",
+      "If there's anything we can do to make it right, please let us know."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "neutral",
+   "patterns": [
+     "It is okay, but not great.",
+     "I have no strong feelings about it.",
+     "It is neither good nor bad.",
+     "I'm undecided about it.",
+     "It is just average.",
+     "It is okay.",
+     "I have no opinion.",
+     "I am not sure.",
+     "I am neutral about this.",
+      "I'm on the fence about it.",
+      "It doesn't stand out to me."
+   ],
+   "responses": [
+     "Thank you for sharing your feedback.",
+     "We appreciate your honest opinion.",
+     "If you have any suggestions for improvement, feel free to let us know.",
+     "We value your input and will take it into consideration.",
+     "If you need any further assistance, please don't hesitate to reach out.",
+     "We understand that everyone has different preferences and opinions.",
+      "Your neutrality is noted, and we're here to assist if you have any questions.",
+      "We're always looking for ways to enhance our offerings based on customer feedback.",
+      "Your input is valuable, and we appreciate you taking the time to share your thoughts."
+
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "establishment",
+   "patterns": [
+      "what year was ACEDS established?",
+      "How old is ACEDS?",
+      "When was aceds established?",
+      "When was ACEDS establish",
+      "Which year was ACEDS established?",
+      "The year ACEDS was established is?",
+      "When did ACEDS started her programs",
+      "how many years is ACEDS",
+      "year of establishement of ACEDS",
+      "The year ACEDS was founded",
+      "When was ACEDS founded",
+      "establishment",
+      "ACEDS was founded in the year",
+      "founded?"
+   ],
+   "responses": [
+      "ACEDS was founded in september 2017",
+      "ACEDS was established in september 2017"
+      
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "meaning",
+   "patterns": [
+      "what is the full meaning of ACEDS?",
+      "What is the meaning of ACEDS",
+      "Whats the meaning of ACEDS",
+      "ACEDS stands for?",
+      "What does ACEDS means?",
+      "What is the meaning of ACEDS?",
+       "What does the abbreviation for ACEDS stand for",
+      "ACEDS means?",
+      "what does ACEDS stands for?",
+      "who is this ACEDS",
+      "Tell me what ACEDS means?",
+      "Expland what ACEDS means",
+      "Can i get to know the meaning of ACEDS?",
+      "Can i get to know what ACEDS means",
+      "what is the full meaning of ACEDS?",
+     "Meaning of aceds ACE-DS",
+     "What does ACEDS stand for?",
+     "Can you provide the complete expansion of ACEDS?",
+     "What is the full acronym for ACEDS?",
+     "What is the meaning of ACEDS",
+     "Could you explain the meaning of ACEDS in its entirety?",
+     "Please elaborate on the full name of ACEDS",
+     "ACEDS means"
+     
+   ],
+   "responses": [
+      "ACEDS is an abreviation for African Center of Excellence in Data Science(ACE-DS).",
+      "ACEDS is an acronym for African Center of Excellence in Data Science",
+      "ACEDS means African Center of Excellence in Data Science",
+      "ACEDS simply means African Center of Excellence in Data Science",
+      "ACEDS means African Center of Excellence in Data Science(ACE-DS)",
+     "ACEDS stands for African Center of Excellence in Data Science (ACE-DS).",
+     "The acronym ACEDS represents the African Center of Excellence in Data Science (ACE-DS)",
+     "ACEDS is the abbreviation for the African Center of Excellence in Data Science (ACE-DS).",
+     "The full name of ACEDS is the African Center of Excellence in Data Science (ACE-DS).",
+     "The meaning of ACEDS is the African Center of Excellence in Data Science (ACE-DS)."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "Bachelor",
+   "patterns": [
+      "Does ACEDS offers BSc programs?",
+      "Ehat Vachelor of arts programs are offered at ACEDS?",
+      "what Bachelor of Science program does ACEDS offers",
+      "what undergraduate programs does ACEDS offers?",
+      "Does ACEDS offers Bachelor programs?",
+      "Does ACEDS have undergraduate programs",
+      "BSc Programs in ACEDS",
+      "undergraduate programs",
+      "Bachelor of Science programs",
+      "what are your hours",
+      "programs for undergraduate studies"
+   ],
+   "responses": [
+      "Sorry, ACEDS only offers Postgraduates and Professional Certification porgrams in Data Science or AI.",
+      "Sorry, ACEDS doesnt offer undergraduate programs."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "Masters",
+   "patterns": [
+      "What are the necessary academic requirements for enrolling in the Masters program?",
+      "What qualifications are needed to enroll in the Masters program?",
+      "Can you provide information on the academic prerequisites for Masters program enrollment?",
+      "What are the academic criteria for admission into the Masters program?",
+      "Could you explain the educational requirements for joining the Masters program?",
+      "Masters program enrollment requirements?",
+      "Academic requirements for Masters program enrollment?",
+      "Masters program requirements?",
+      "Masters program criteria?"
+      
+   ],
+   "responses": [
+      "Relevant undergraduate degree in Statistics, Mathematics, Computer Science, Information Technology, Economics and other disciplines related to Data science. ",
+      "Relevant undergraduate degrees include Statistics, Mathematics, Computer Science, Information Technology, Economics, and related disciplines.",
+      "Relevant undergraduate degrees include Statistics, Mathematics, Computer Science, Information Technology, Economics, and related disciplines."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "PhD_Enrolment",
+   "patterns": [
+      "What are the necessary academic requirements for enrolling in the PhD program?",
+      "What qualifications are needed to enroll in the PhD program?",
+      "Can you provide information on the academic prerequisites for PhD program enrollment?",
+      "What are the academic criteria for admission into the PhD program?",
+      "Could you explain the educational requirements for joining the PhD program?",
+      "PhD program enrollment requirements?",
+      "Academic requirements for PhD program enrollment?",
+      "PhD program requirements?",
+      "PhD program criteria?",
+      "PhD requirements for admission"
+   ],
+   "responses": [
+      "Relevant masters degrees in Statistics, Mathematics, Computer Science, Information Technology, Economics and other disciplines related to Data science.",
+      "Relevant masters degrees include Statistics, Mathematics, Computer Science, Information Technology, Economics, and related disciplines.",
+      "Relevant masters degrees include Statistics, Mathematics, Computer Science, Information Technology, Economics, and related disciplines."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "professional",
+   "patterns": [
+      "Academic requirements for Professional Certification program enrollment?",
+      " What qualifications are needed to enroll in the Professional Certification program?",
+      "Can you provide information on the academic prerequisites for Professional Certification program enrollment?",
+      "What are the academic criteria for admission into the Professional Certification program?",
+      "Academic requirements for Professional Certification program enrollment?",
+      "Professional Certification program requirements?",
+      "Professional certifications",
+      "DASCA Certifications",
+      "certifications requirements"
+      
+   ],
+   "responses": [
+      "Having a bachelor's degree in the relevant field in Data Science",
+       "Possessing a relevant bachelor's degree in Data Science.",
+       "Holding a bachelor's degree in the appropriate Data Science field.",
+       "A required bachelor's degree in the relevant Data Science discipline.",
+       "Meeting the academic prerequisite of a bachelor's degree in Data Science.",
+       "Having obtained a bachelor's degree in the applicable Data Science field."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "VISA",
+   "patterns": [
+	"International student visa requirements?",
+	"Visa prerequisites for international students?",
+	"What is needed for international students' visas?",
+	"Visa requirements for students from abroad?",
+	"Briefly explain the visa requirements for international students.",
+	"International student visa requirements?",
+	 "Visa requirements for global students?",
+	"Visa rules for international students?",
+	"What's needed for student visas abroad?",
+	 "Briefly explain international student visa requirements.",
+   "VISA requirements"
+      
+   ],
+   "responses": [
+      "Upon arrival, students are required to submit necessary documents including a Police Clearance Certificate, ACEDS recommendation letter, Medical Certificate of Fitness, International Passport, and passport photographs for visa processing.",
+      "Upon arrival, students are required to submit certain documents including a Police Clearance Certificate, ACEDS recommendation letter, Medical Certificate of Fitness, International Passport, and passport photographs to obtain their visa.",
+      "Upon arrival, students are required to provide a Police Clearance Certificate, a recommendation letter from ACEDS, a Medical Certificate of Fitness, an International Passport, and passport photographs to obtain their visa and necessary documents."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Reasons",
+   "patterns": [
+   "What are the best things about education at ACEDS?",
+   "What makes education at ACEDS exceptional?",
+	"Key benefits of studying at ACEDS?",
+	"Standout features of education at ACEDS?",
+	"Why choose education at ACEDS?",
+	"Advantages of pursuing studies at ACEDS?",
+	"Highlights of education at ACEDS? ",
+   "What are the advantages of studying at ACEDS compared to other institutions in the field of Data Science?",
+   "How does enrolling at ACEDS enhance a student's career prospects in the field of Data Science?",
+   "What unique opportunities does ACEDS offer for hands-on learning and practical experience in Data Science?",
+   "Can you explain how ACEDS provides a supportive and conducive learning environment for students pursuing Data Science studies?",
+   "What sets ACEDS apart in terms of the quality and depth of its curriculum for Data Science education?",
+   "Why choose ACEDS for Data Science studies?",
+   "How does ACEDS boost career opportunities in Data Science?",
+   "What practical learning experiences does ACEDS offer in Data Science?",
+   "What makes ACEDS an ideal learning environment for Data Science students?",
+   "What sets ACEDS apart in Data Science education?"  
+
+      
+   ],
+   "responses": [
+      "Diverse courses, events, and international connections boost your employability and job prospects.",
+      "Diverse courses, events, and international connections boost employability and job prospects.",
+      "Our diverse courses, events, and international connections improve your employability and job opportunities."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "deadline",
+   "patterns": [
+      
+      "When is the application deadline or timeline and does it make a difference if I apply early?",
+      "Application deadline and early submission impact?",
+      "Does applying early affect the application timeline?",
+      "How does the application timeline and early submission relate?",
+      "Application deadline and the advantage of applying early?",
+      "Is there a difference if I apply early in terms of the application timeline?",
+      "Does the application timeline vary based on early submission?",
+      "Impact of early application on the timeline and deadline?",
+      "Application timeline and the significance of applying early?",
+       "Does early application make a difference in terms of the deadline?",
+      "How does the application timeline correspond to early submission?"
+   ],
+   "responses": [
+      "Please kindly refer to our application announcements, and we encourage applicants to submit their applications well in advance or by the stated deadline.",
+      "Please refer to our application announcements and submit your application ahead of the deadline.",
+      "Please check our application announcements and submit your application early or by the specified deadline.",
+      "Please refer to our application announcements and submit your applications before the deadline."
+
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Jobs",
+   "patterns": [
+       "How do I get a job on campus?",
+	"How can I secure an on-campus job?",
+	"What is the process for obtaining a job on campus?",
+	"How do I go about getting employed on campus?",
+	"What steps should I take to find a job within the campus?",
+	"How can I pursue a campus job opportunity?",
+	"What is the procedure for acquiring an on-campus job?",
+	"How do I access job opportunities available on campus?",
+	"What is the recommended approach to obtain a job within the campus?",
+	"How can I explore employment options within the campus setting?",
+	"What are the steps involved in securing a job on campus?"
+      
+   ],
+   "responses": [
+   "On-campus employment opportunities for students are not available. However, exceptional students may be occasionally recruited for specific positions, which will be communicated to them in due course.",
+	"Limited on-campus job opportunities for students. Exceptional students may be recruited for specific positions.",
+	"No on-campus employment for students. Exceptional individuals may be recruited later for specific roles.",
+	"Students do not have on-campus job options. Outstanding students may be recruited for specific positions later."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Transportation",
+   "patterns": [
+   "what is public transport like whilst enrolled at ACEDS?",
+   "How is public transport for ACEDS students?",
+	"What is the transportation situation for ACEDS students?",
+	"Briefly describe public transport for ACEDS enrollees.",
+	"What are the public transportation options for ACEDS students?",
+	"Public transport overview for ACEDS students?",
+	"How do ACEDS students access public transportation?",
+	"Public transport experience for ACEDS enrollees?",
+	"What is the public transit scenario for ACEDS students?",
+	"Quick summary of public transport for ACEDS students.",
+	"What can ACEDS students expect regarding public transportation?",
+   "public transportation",
+   "types of transport",
+   "transportation"
+
+      
+   ],
+   "responses": [
+      "Rwanda offers a wide range of transportation options, including buses, metros, taxis, personal cars, bicycles, and more.",
+      "Rwanda has diverse transportation options: buses, metros, taxis, cars, bikes, and more.",
+      "Rwanda provides varied transportation choices: buses, metros, taxis, cars, bikes, and more.",
+      "Rwanda offers multiple transport options: buses, metros, taxis, cars, bikes, and more."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "sports clubs",
+   "patterns": [
+   "How do I get involved in a student club or sport?",
+    "What extra curricular activities are available for students to participate/enrol in",
+   "How to join a student club or sport?",
+	"Getting involved in student clubs or sports?",
+	"Ways to participate in student clubs or sports?",
+	"How can I engage in a student club or sport?",
+	"Getting active in student clubs or sports?",
+	"Steps to join a student club or sport?",
+	"How to become part of a student club or sport?",
+	"Getting connected with student clubs or sports?",
+	"What is the process for joining a student club or sport?",
+	"How to get started with a student club or sport?"
+   ],
+   "responses": [
+      "Participating in clubs or sports can be an enriching aspect of your ACEDS journey, and there are dedicated sporting facilities available to enhance this experience.",
+      "Clubs and sports enrich the ACEDS experience, with dedicated facilities.",
+      "Engaging in clubs and sports enhances the ACEDS journey with dedicated facilities.",
+      "Clubs and sports at ACEDS provide enriching experiences with dedicated facilities."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "housing",
+   "patterns": [
+       "Do you offer on-campus housing?",
+       "On-campus housing available?",
+      "Is on-campus housing offered?",
+      "Housing on campus provided?",
+      "Do you provide on-campus accommodation?",
+      "Is there on-campus housing available?",
+      "On-campus housing options?",
+      "Are students offered on-campus housing?",
+      "Do you have on-campus residential facilities?",
+      "Is there housing available within the campus premises?",
+      "Are there accommodations provided on campus?",
+        "Is student hostel accomodation in the school premises available for lease?",
+        "Is student hostel in the school premises available?",
+        "When can i apply for student accomodation?",
+        "How can i apply for student accomodation?"   
+
+      
+   ],
+   "responses": [
+      "Limited on-campus apartments for students. Affordable accommodations nearby.",
+      "Few on-campus apartments, but affordable options nearby.",
+      "Limited on-campus housing, but affordable accommodations nearby."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "speaking",
+   "patterns": [
+       "Can I speak to someone from ACEDS in my native language?",
+       "ACEDS offers support in my native language?",
+       "Is assistance available in my native language at ACEDS?",
+       "Can I communicate in my native language with ACEDS staff?",
+       "Is there language support in my native language at ACEDS?",
+       "Can I converse with ACEDS personnel in my native language?",
+       "Are there ACEDS representatives who speak my native language?",
+       "Does ACEDS provide communication in languages other than English?",
+       "Can I speak with someone from ACEDS in a language other than English?",
+       "Is it possible to communicate with ACEDS in languages besides English?",
+       "Are there provisions for native language communication at ACEDS?"
+
+      
+   ],
+   "responses": [
+      "Yes, if the person understands the native language, but please note that the language of instruction is English.",
+      "Native language comprehension is beneficial, but please note that the language of instruction is English.",
+      "Yes, if the person understands your native language, but please note that the language of instruction is English."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "food",
+   "patterns": [
+       "What’s the food really like in kigali? Can I get food from my home country?",
+      	"Food scene in Kigali?",
+	      "Cuisine in Kigali?",
+        "Availability of home country food in Kigali?",
+        "Food options in Kigali?",
+        "Can I find my home country's food in Kigali?",
+        "Kigali food scene and international options?",
+        "Food in Kigali and availability of home country cuisine?",
+        "Cuisine in Kigali and access to food from home country?",
+        "What to expect in Kigali food-wise and options from home country?",
+        "Kigali's food variety and availability of home country dishes?",
+        "Food experience in Kigali and options from home country?",
+        "Gastronomy in Kigali and access to home country food?",
+        "What's the food like in Kigali and can I find my home country cuisine?",
+        "Kigali dining scene and availability of food from home country?",
+        "Overview of Kigali's food offerings and options from home country."
+
+      
+   ],
+   "responses": [
+      "Rwanda offers diverse food options, including inter-continental cuisine, due to its reputation as a tourist destination.",
+      "Rwanda has diverse food options, including inter-continental cuisine.",
+      "Wide variety of food in Rwanda, including inter-continental options.",
+      "Rwanda offers diverse and inter-continental cuisine."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "calender",
+   "patterns": [
+       "ACEDS academic calendar start date?",
+       "When does the ACEDS academic calendar begin?",
+       "Start date of the ACEDS academic calendar?",
+       "ACEDS academic calendar commencement?",
+       "ACEDS academic year start date?",
+       "When does the ACEDS academic year begin?",
+       "Start of the ACEDS academic calendar?",
+       "ACEDS academic calendar initiation?",
+       "ACEDS academic term start date?",
+       "When does the ACEDS academic term begin?",
+       "Academic calender",
+       "Academic sessions"  
+      
+   ],
+   "responses": [
+      "The academic calendar starts after the admission process for regular programs and immediately after enrollment for professional programs.",
+      "Academic calendar starts after admissions or immediately for Professional programs.",
+      "Start of academic calendar: after admissions or immediately for Professional programs.",
+      "Academic calendar begins post-admissions or right after enrollment in Professional programs."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Degrees",
+   "patterns": [
+       "What are the different types of graduate degrees offered at ACEDS?",
+       "ACEDS graduate degree options?",
+       "Types of graduate degrees at ACEDS?",
+       "ACEDS graduate programs overview?",
+       "What graduate degrees are available at ACEDS?",
+       "ACEDS offerings for graduate degrees?",
+       "Different types of graduate programs at ACEDS?",
+       "ACEDS graduate degree variety?",
+       "Overview of graduate degrees offered at ACEDS?",
+       "ACEDS graduate degree options explained?",
+       "What are the graduate degree choices at ACEDS?"    
+   ],
+   "responses": [
+      "ACEDS offers postgraduate programs encompassing MSc and PhD Degrees in Data Science with few areas of specialization",
+      "ACEDS offers MSc and PhD degrees in Data Science with specialization options.",
+      "Postgraduate programs at ACEDS include MSc and PhD degrees in Data Science with specialization areas.",
+      "ACEDS provides MSc and PhD programs in Data Science with limited specializations."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "possibilities",
+   "patterns": [
+       "Is it possible to obtain a bachelors degree and a masters degree at the same time?",
+	"Simultaneous bachelors and masters degrees?",
+	"Can you earn bachelors and masters degrees concurrently?",
+	"Obtaining both bachelors and masters degrees together?",
+	"Is dual bachelors and masters degree possible?",
+	"Pursuing bachelors and masters degrees concurrently?",
+	"Can you complete bachelors and masters degrees simultaneously?",
+	"Bachelor's and masters degrees in tandem?",
+	"Is it feasible to earn bachelors and masters degrees simultaneously?",
+	"Concurrent bachelors and masters degree pursuit?",
+	"Is it possible to achieve both bachelors and masters degrees at the same time?"
+      
+   ],
+   "responses": [
+      "The availability of diverse courses, events, and international connections enhances your employability and job prospects.",
+      "ACEDS offers postgraduate programs: Masters, PhDs, and professional certifications in Data Science.",
+      "ACEDS provides postgraduate degrees: Masters, PhDs, and professional certifications in Data Science.",
+      "ACEDS offers only postgraduate programs: Masters, PhDs, and professional certifications in Data Science."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "timeline",
+   "patterns": [
+   "What is the average length of study for Masters and PhD programs at ACED?",
+   "Average duration of Masters and PhD programs at ACED?",
+	"Length of study for Masters and PhD programs at ACED?",
+	"Typical duration of Masters and PhD programs at ACED?",
+	"Average length of Masters and PhD studies at ACED?",
+	"Duration of study for Masters and PhD degrees at ACED?",
+	"How long do Masters and PhD programs take at ACED?",
+	"Average study period for Masters and PhD programs at ACED?",
+	"Length of time for Masters and PhD studies at ACED?",
+	"What is the typical duration of Masters and PhD programs at ACED?",
+	"Average study time for Masters and PhD degrees at ACED?"   
+   ],
+   "responses": [
+      " Masters Programs: 2 years (24 months), PhD Programs: 3 years (36 months).",
+      " Masters Programs: 2 years (24 months), PhD Programs: 3 years (36 months) at ACEDS.",
+      " ACEDS: Masters Programs - 2 years (24 months), PhD Programs - 3 years (36 months)."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "work",
+   "patterns": [
+       "Can you work while studying at ACEDS? ",
+       "Work while studying at ACEDS?",
+       "Job options while studying at ACEDS?",
+       "Working opportunities during ACEDS studies?",
+       "Can you have a job while studying at ACEDS?",
+       "Employment possibilities while enrolled at ACEDS?",
+       "Balancing work and studies at ACEDS?",
+       "Is it possible to work and study simultaneously at ACEDS?",
+       "Working while pursuing studies at ACEDS?",
+       "Part-time employment during ACEDS studies?",
+       "Can you have a job while being an ACEDS student?" 
+
+      
+   ],
+   "responses": [
+      "Yes, you can enrol for day or evening programs depending on which program is convenient for your work.",
+      "Enroll for day or evening programs based on your work schedule.",
+      "Choose day or evening programs to accommodate your work commitments.",
+      "Flexible program options for work compatibility: day or evening enrollment."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "learning",
+   "patterns": [
+       "Is distance learning available at the graduate level?",
+       "Distance learning for graduate level?",
+       "Graduate level distance learning?",
+       "Availability of distance learning for graduates?",
+       "Is distance learning offered for graduate programs?",
+       "Distance learning option for graduate level?",
+       "Can you study remotely at the graduate level?",
+       "Graduate level education through distance learning?",
+       "Does ACEDS offer distance learning for graduates?",
+       "Distance learning for graduate studies?",
+       "Is remote learning available for graduate level programs?",
+       "Online learning"   
+   ],
+   "responses": [
+      "ACEDS exclusively provides a blended learning system that combines both traditional and virtual methods of education.",
+      "ACEDS offers blended learning combining traditional and virtual methods.",
+      "Blended learning at ACEDS: traditional and virtual education combined.",
+      "ACEDS uses a blend of traditional and virtual education methods."
+
+   ],
+   "context_set": ""
+},
+{
+   "tag": "transfer",
+   "patterns": [
+       "Can I transfer to a ACEDS from a university outside of the Rwanda?",
+       "Transferring to ACEDS from a foreign university possible?",
+       "Can I transfer to ACEDS from an international university?",
+       "Transferring to ACEDS from a university outside Rwanda?",
+       "Is it possible to transfer to ACEDS from a foreign university?",
+       "ACEDS transfer option for international students?",
+       "Can I switch to ACEDS from a university abroad?",
+       "Transfer to ACEDS from a non-Rwandan university allowed?",
+       "Is it feasible to transfer to ACEDS from a university outside Rwanda?",
+       "ACEDS admission for students transferring from foreign universities?",
+       "Can I move to ACEDS from a university in another country?"
+      
+   ],
+   "responses": [
+      "Contact center admin for enrollment guidance.",
+      "Seek advice from center admin for enrollment.",
+      "Reach out to center admin for enrollment assistance."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "modules",
+   "patterns": [
+       "Do students have to study a fixed set of courses or can they individually form their major?",
+       "Fixed courses or customizable majors for students?",
+       "Can students create their own major or are courses fixed?",
+       "Flexible majors or prescribed courses for students?",
+       "Fixed courses or customizable majors for students?",
+       "Set courses or individualized majors at ACEDS?",
+       "Are majors fixed or customizable for students?"   
+
+      
+   ],
+   "responses": [
+      "Specialization determines course requirements.",
+      "Course count based on specialization.",
+      "Specific courses based on specialization."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "English",
+   "patterns": [
+       "What are English language proficiency requirements?",
+       "English language proficiency requirements?",
+       "Language proficiency criteria for English?",
+       "What is required for English language proficiency?",
+       "English language skill prerequisites?",
+       "English proficiency standards?",
+       "Language requirements for English proficiency?",
+       "What are the English language expectations?",
+       "Required English language proficiency level?",
+       "What is needed for English language proficiency?",
+       "English language competency criteria?"
+
+      
+   ],
+   "responses": [
+      "Proficiency in both written reading and verbal communication is expected from students at ACEDS as all programs are instructed in English.",
+      "English proficiency expected for all ACEDS programs.",
+      "Proficient English required for ACEDS programs.",
+      "English proficiency essential for ACEDS studies.",
+      "English language fluency needed for ACEDS programs."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "GPA",
+   "patterns": [
+       "What is a GPA?",
+       "What does GPA mean?",
+       "Definition of GPA?",
+       "GPA explained?",
+       "What is the GPA abbreviation?",
+       "Meaning of GPA?",
+       "GPA definition?",
+       "What does GPA stand for?",
+       "GPA clarification?",
+       "GPA interpretation?",
+       "What is GPA?"   
+
+      
+   ],
+   "responses": [
+      "GPA stands for Grade Point Average. It is a numerical representation of a student's academic performance.",
+      "GPA: Grade Point Average indicating academic performance.",
+      "GPA: Grade Point Average showing student's performance.",
+      "GPA: Grade Point Average reflects academic achievement."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "credit",
+   "patterns": [
+       "How does the credit system at ACEDS work?",
+	"ACEDS credit system explained?",
+	"How ACEDS credit system functions?",
+	"Understanding ACEDS credit system?",
+	"ACEDS credit system overview?",
+	"How does ACEDS credit system operate?",
+	"ACEDS credit system mechanics?",
+	"ACEDS credit system details?",
+	"How are credits assigned at ACEDS?",
+	"ACEDS credit system workings?"
+	
+      
+   ],
+   "responses": [
+      "ACEDS follows an approved grading system by the Higher Education Council and the University of Rwanda Senate.",
+      "ACEDS follows an approved grading system by the Higher Education Council and the University of Rwanda Senate."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Grades",
+   "patterns": [
+       "How are grades determined in ACEDS?",
+      "ACEDS grade determination process?",
+      "How grades are assigned at ACEDS?",
+      "ACEDS grading system overview?",
+      "Determining grades at ACEDS?",
+      "ACEDS grade determination explained?",
+      "ACEDS grading system explained concisely?",
+      "ACEDS grading system explained?",
+      "How ACEDS grading system functions?",
+      "Understanding ACEDS grading system?",
+      "ACEDS credit system overview?",
+      "How does ACEDS grading system operate?",
+      "ACEDS grade system mechanics?",
+      "ACEDS grade system details?",
+      "How are grade assigned at ACEDS?",
+      "ACEDS grade system workings?",
+      "ACEDS grade system explained concisely?",
+      "Grading system at ACEDS",
+      "Grades"
+
+      
+   ],
+   "responses": [
+      "Classwork: 60%, Exams: 40% for ACEDS modules.",
+      "Grade breakdown: 60% classwork, 40% exams at ACEDS.",
+      "Classwork 60%, Exams 40% for ACEDS modules.",
+      "Classwork: 60%, Exams: 40% for ACEDS grading.",
+      "Classwork 60%, Exams 40% in ACEDS grading.",
+      "ACEDS grading: 60% classwork, 40% exams."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "changes",
+   "patterns": [
+       "Can an enrolled student change his/her assigned course of study?",
+       "Can enrolled students switch courses?",
+       "Change of study program for enrolled students?",
+       "Modifying assigned specialization for enrolled students?",
+       "Is it possible to switch assigned specialisation for enrolled students?",
+       "Enrolled students specialisation change possibility?",
+       "Can students change their assigned study program?",
+       "Switching specialization for enrolled students allowed?",
+       "Is it feasible for enrolled students to change their assigned program?",
+       "Can enrolled students choose a different specialisation of study?",
+       "Enrolled students' option to change assigned specialization?",
+       "Change of program",
+       "switching to another specialization",
+       "change of specialization",
+       "moving to another specialization",
+       "specialization change" 
+
+      
+   ],
+   "responses": [
+      "Program changes usually not allowed, exceptions with valid reason.",
+      "Program changes not the norm, exceptions with valid justification.",
+      "Limited program changes, exceptions with valid reason.",
+      "Program changes rare, possible with valid explanation.",
+      "For program change inquiries, contact center administrator."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "switching",
+   "patterns": [
+       "What are the steps required for changing department/course?",
+       "Steps to change department/course?",
+       "Changing specialization/course process?",
+       "Process for switching specialisation/course?",
+       "Steps involved in changing specialization/course?",
+       "Specialization/course change procedure?",
+       "Changing specialization/course requirements?",
+       "How to change specialization/course?",
+       "Steps for specialzation/course transfer?",
+       "specialization/course change steps?",
+       "Changing specialisation/course guidelines? "   
+      
+   ],
+   "responses": [
+      "Contact the center administrator for further assistance.",
+      "Reach out to the center administrator for support.",
+      "Contact the center administrator for guidance on this matter.",
+      "Get in touch with the center administrator to proceed.",
+      "For assistance, kindly contact the center administrator."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "international",
+   "patterns": [
+       "How can an international student find out what academic courses from their country are acceptable for at ACEDS?",
+       "Checking accepted academic courses from your country at ACEDS?",
+       "Finding acceptable courses from your country at ACEDS?",
+       "Verifying eligibility of academic courses from your country at ACEDS?",
+       "How to determine if academic courses from your country are accepted at ACEDS?",
+       "Discovering approved academic courses from your country at ACEDS?",
+       "Academic course acceptance for international students at ACEDS?",
+       "Ensuring compatibility of academic courses from your country at ACEDS?",
+       "Validating eligibility of academic courses from your country at ACEDS?",
+       "International students verifying acceptance of academic courses from their country at ACEDS?",
+       "How can international students confirm acceptance of academic courses from their country at ACEDS?" 
+
+      
+   ],
+   "responses": [
+      "Stay updated with calls for applications and contact provided information for international students.",
+      "Refer to calls for applications and provided contact information for international students.",
+      "Stay informed with calls for applications and contact details for international students."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "certifications",
+   "patterns": [
+       "How can I apply for professional certification training programs?",
+       "Applying for professional certification training programs?",
+       "Process of applying for professional certification training programs?",
+       "How to apply for professional certification training programs?",
+       "Applying to professional certification training programs?",
+       "Steps to apply for professional certification training programs?",
+       "Application process for professional certification training programs?",
+       "How can I enroll in professional certification training programs?",
+       "Applying for professional certification courses?",
+       "Application requirements for professional certification training programs?",
+       "How to get into professional certification training programs?",
+       "How to apply for Certification programs"   
+
+      
+   ],
+   "responses": [
+      "Contact the center for enrollment details.",
+      "Reach out to the center for enrollment information.",
+      "Get in touch with the center for enrollment procedures.",
+      "Contact the center for guidance on enrollment."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "advise",
+   "patterns": [
+       "Whats the best general advice for an incoming student?",
+       "Best advice for incoming students?",
+       "General advice for new students?",
+       "Top tips for incoming students?",
+       "Advice for new students?",
+       "Best guidance for incoming students?",
+       "Key advice for new students?",
+       "Important tips for incoming students?",
+       "Recommendations for new students?",
+       "Essential advice for incoming students?",
+       "What to know as an incoming student?"  
+
+      
+   ],
+   "responses": [
+      "Build relationships with individuals who uphold strong social, academic, and personal principles. Remember that honesty is the most effective approach. Steer clear of all forms of cheating, including collusion and plagiarism.",      
+      "Foster relationships with ethical individuals.",
+      "Embrace honesty and avoid cheating.",
+      "Build connections with morally upright individuals.",
+      "Avoid cheating and uphold integrity."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "why",
+   "patterns": [
+       "Why should I choose to study at ACEDS",
+       "Reasons to choose ACEDS?",
+       "Advantages of studying at ACEDS?",
+       "Benefits of choosing ACEDS for your studies?",
+       "Why study at ACEDS?",
+       "What makes ACEDS a great choice for studying?",
+       "Why should I consider ACEDS for my education?",
+       "The appeal of studying at ACEDS?",
+       "What sets ACEDS apart as a study destination?",
+       "The advantages of pursuing studies at ACEDS?",
+       "Why ACEDS is worth considering for your education?"  
+
+      
+   ],
+   "responses": [
+      "ACEDS is internationally accredited by DASCA.",
+      "ACEDS at the University of Rwanda has global recognition.",
+      "ACEDS recruits students and lecturers worldwide.",
+      "ACEDS is recognized globally by DASCA."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "living",
+   "patterns": [
+       "How much should I expect to spend as living cost for a year in Rwanda?",
+       "Living expenses in Rwanda for a year?",
+       "Estimated annual living costs in Rwanda?",
+       "What is the average yearly cost of living in Rwanda?",
+       "How much does it cost to live in Rwanda for a year?",
+       "Rwanda's annual living expenses?",
+       "Expected living costs for a year in Rwanda?",
+       "Anticipated yearly living expenses in Rwanda?",
+       "Rwandas average annual living expenses?",
+       "What is the cost of living for a year in Rwanda?",
+       "Yearly living expenditure in Rwanda?"
+      
+   ],
+   "responses": [
+      "On average, a monthly expense, including student accommodation rent, can be comfortably covered by $300 USD, but this may vary depending on individual lifestyle and spending patterns.",
+      "Average monthly expenses, including student accommodation rent, can be covered by $300 USD, but it varies based on lifestyle and spending habits.",
+      "Average monthly expenses, including student accommodation, can be covered by $300 USD, but it may vary based on lifestyle.",
+      "Monthly expenses, including student accommodation rent, can be covered by $300 USD on average, but this may vary based on individual lifestyle."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "commuting",
+   "patterns": [
+       "How do I commute around Rwanda? What is the transport system like?",
+      "What are the transportation options for getting around Rwanda?",
+      "How can I travel within Rwanda?",
+      "What is the transportation system like in Rwanda?",
+      "What are the available commuting methods in Rwanda?",
+      "How do people typically get around in Rwanda?",
+      "What is the means of transportation in Rwanda?",
+      "What are the commuting options within Rwanda?",
+      "How can I navigate around Rwanda?",
+      "What is the transport infrastructure like in Rwanda?",
+      "How do Rwandans travel within the country?"  
+      
+   ],
+   "responses": [
+      "Getting around Kigali and other regions in Rwanda is a convenient, seamless, and secure experience due to the availability of various transportation systems.",
+      "The presence of diverse transportation systems makes traveling within Kigali and other regions in Rwanda convenient, seamless, and safe.",
+      "In Rwanda, you can easily and safely travel around Kigali and other regions thanks to the availability of different transportation systems, ensuring a convenient and smooth experience.",
+       "With a range of transportation options, including secure systems in place, getting around Kigali and other regions of Rwanda is a hassle-free and convenient experience."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "safety",
+   "patterns": [
+       "How safe is Rwanda or Kigali",
+       "Is Rwanda or Kigali a safe place to be?",
+       "What is the safety level like in Rwanda or Kigali?",
+       "How secure is Rwanda or Kigali in terms of personal safety?",
+       "Is Rwanda or Kigali considered a safe destination?",
+       "What can be said about the safety of Rwanda or Kigali?",
+       "Are there any security concerns in Rwanda or Kigali?",
+       "Can I feel safe in Rwanda or Kigali?",
+       "How does Rwanda or Kigali fare in terms of safety?",
+       "Are there any risks to consider when visiting Rwanda or Kigali?",
+       "Is Rwanda or Kigali known for its safety?"  
+
+      
+   ],
+   "responses": [
+      "Rwanda has long been considered one of the safest countries in Africa to travel to. This landlocked East African country is home to rare animals, making it a dream destination for nature lovers.",
+      "Known for its safety, Rwanda is a popular destination in Africa, especially for nature enthusiasts, as it offers opportunities to observe rare animals in its beautiful landscapes.",
+      "Rwanda, recognized as one of Africa's safest countries, attracts nature lovers with its abundant wildlife and scenic beauty.",
+      "With its reputation as one of Africa's safest nations, Rwanda is a sought-after location for nature enthusiasts, offering a chance to witness rare animals in stunning surroundings."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "state",
+   "patterns": [
+       "what state of the Art Facilities are there at ACEDS?",
+       "What cutting-edge facilities does ACEDS offer?",
+       "What state-of-the-art amenities can be found at ACEDS?",
+       "What modern facilities are available at ACEDS?",
+       "What advanced features does ACEDS provide in terms of facilities?",
+       "What state-of-the-art resources are present at ACEDS?",
+       "What technological advancements are incorporated into the facilities at ACEDS?",
+       "What high-tech infrastructure can be found at ACEDS?",
+       "What modern conveniences are offered at ACEDS?",
+      "What innovative facilities are at your disposal when you're at ACEDS?",
+      "What advanced equipment and amenities does ACEDS boast?" 
+
+      
+   ],
+   "responses": [
+      "ACEDS offers state-of-the-art facilities, including modern classrooms, well-equipped laboratories, a comprehensive library, and dedicated computer labs.",
+      "ACEDS provides top-notch facilities, such as contemporary classrooms, fully equipped labs, an extensive library, and specialized computer labs.",
+      "At ACEDS, you'll find state-of-the-art facilities, including modern classrooms, well-stocked laboratories, a comprehensive library, and dedicated computer labs.",
+      "ACEDS is equipped with cutting-edge facilities, including up-to-date classrooms, well-furnished laboratories, an extensive library, and dedicated computer labs."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "can you help me?",
+      "I need your help",
+      "So, what can you do",
+      "i need some help",
+      " I want to know what exactly you can do",
+      "What is essential about you",
+      "How reliable are your information",
+      "I need some information from you",
+      "i will be glad if you can help me",
+      "anything you can help me with?",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you",
+      "What other things can you do",
+      "please, what can you do?",
+      "please can you tell me what you can do?",
+      "what help can you provide?",
+      "what services do you provide",
+      "tell me what you can do"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding African Center of Excellence in Data Science",
+      "You can ask me questions regarding ACE-DS, and i will try to answer them, and i can as well tell you jokes"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ragging",
+   "patterns": [
+      "ragging",
+      "is ragging practice active in college",
+      "does college have any antiragging facility",
+      "is there any ragging cases",
+      "is ragging done here",
+      "ragging against",
+      "antiragging facility",
+      "ragging juniors",
+      "ragging history",
+      "ragging incidents"
+   ],
+   "responses": [
+      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sports",
+   "patterns": [
+      "sports",
+      "what sport are at ACE-DS",
+      "sporting facilities"
+   ],
+   "responses": [
+      "There are different sports at ACE-DS, sporting facilities are located the college of business and economics hosting ACE-DS "
+   ],
+   "context_set": ""
+},
+{"tag": "regulations",
+   "patterns": [ 
+    "Where can i get guidelines?",
+    "I need information about Academic regulations & Policies?",
+    "Guide me to policies?",
+    "Where do you get academic policies?",
+    "What is the link to the policies?",
+    "How do you get refulations?",
+    "Who is in Charge of policies?",
+    "How to get Academic regulations & Policies ?",
+    "Academic regulations & Policies",
+    "Academic regulations",
+    "Policies",
+   "Academic Policies"],
+   "responses": ["Check out the information <a target=\"_blank\" href=\"https://ur.ac.rw/?Academic-regulations-Polices\">here</a> ",
+    " What else can I help you with?"],
+    "context_set": ""
+   }
+]
+}
